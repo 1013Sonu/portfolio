@@ -388,6 +388,14 @@ body {
 
 }
 
+
+#page1 #navbottom a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin-top: -1%;
+}
+
 #page2 {
     height: 120vh;
     width: 100vw;
@@ -395,6 +403,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 #page2 #photu {
